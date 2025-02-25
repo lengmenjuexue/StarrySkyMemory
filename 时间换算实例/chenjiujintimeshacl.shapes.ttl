@@ -1,0 +1,88 @@
+# baseURI: http://purl.org/lmjxt/actolite/chenjiujintimeshacl#
+# imports: file:///chenjiujintime/chenjiujintime.rdf
+# imports: http://datashapes.org/dash
+# prefix: cjjtimesh
+
+@prefix cjjtimesh: <http://purl.org/lmjxt/actolite/chenjiujintimeshacl#> .
+@prefix dash: <http://datashapes.org/dash#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cjjtimesh:
+  rdf:type owl:Ontology ;
+  owl:imports <file:///chenjiujintime/chenjiujintime.rdf> ;
+  owl:imports <http://datashapes.org/dash> ;
+  owl:versionInfo "Created with TopBraid Composer" ;
+.
+cjjtimesh:fun_KeToMinutes
+  rdf:type sh:SPARQLFunction ;
+  rdfs:label "时刻转分钟" ;
+  sh:parameter [
+      rdf:type sh:Parameter ;
+      sh:path cjjtimesh:argKe ;
+      sh:datatype xsd:string ;
+      sh:name "时刻转分钟" ;
+    ] ;
+  sh:returnType xsd:decimal ;
+  sh:select """PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX cjjtime: <http://purl.org/lmjxt/actolite/chenjiujintime#>
+SELECT ?result{
+  ?s rdf:type time:TemporalEntity.
+  ?s time:hasDuration/time:minutes ?result.
+  ?s rdfs:label ?ke.
+  FILTER(str(?ke)=$argKe)
+}""" ;
+.
+cjjtimesh:fun_ShiChenToBeggingHour
+  rdf:type sh:SPARQLFunction ;
+  rdfs:label "时辰转起始时" ;
+  sh:parameter [
+      rdf:type sh:Parameter ;
+      sh:path cjjtimesh:argShiCheng ;
+      sh:datatype xsd:string ;
+      sh:name "时辰参数" ;
+    ] ;
+  sh:returnType xsd:integer ;
+  sh:select """PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX cjjtime: <http://purl.org/lmjxt/actolite/chenjiujintime#>
+SELECT ?result
+WHERE {
+	?s rdf:type time:TemporalEntity.
+	?s time:hasBeginning/time:inDateTime/time:hour ?result.
+  	?s rdfs:label ?shicheng.
+ 	FILTER(str(?shicheng)=$argShiCheng)
+}""" ;
+.
+cjjtimesh:fun_ShiKeToMinutes
+  rdf:type sh:SPARQLFunction ;
+  rdfs:label "辰刻转分钟" ;
+  sh:parameter [
+      rdf:type sh:Parameter ;
+      sh:path cjjtimesh:argKe ;
+      sh:datatype xsd:string ;
+      sh:name "时刻参数" ;
+      sh:order "1"^^xsd:decimal ;
+    ] ;
+  sh:parameter [
+      rdf:type sh:Parameter ;
+      sh:path cjjtimesh:argShiChen ;
+      sh:datatype xsd:string ;
+      sh:name "时辰参数" ;
+      sh:order "0"^^xsd:decimal ;
+    ] ;
+  sh:select """PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX cjjtime: <http://purl.org/lmjxt/actolite/chenjiujintime#>
+PREFIX cjjtimesh: <http://purl.org/lmjxt/actolite/chenjiujintimeshacl#>
+SELECT ?result{
+  BIND((cjjtimesh:fun_ShiChenToBeggingHour($argShiChen)*60+cjjtimesh:fun_KeToMinutes($argKe)) AS ?result)
+}""" ;
+.

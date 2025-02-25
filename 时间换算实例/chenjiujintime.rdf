@@ -1,0 +1,1422 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:cjjtime="http://purl.org/lmjxt/actolite/chenjiujintime#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="file:///chenjiujintime/chenjiujintime.rdf">
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fad25c32-c034-11ee-9d91-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.2</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >14.4</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >7.2</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">半刻</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fabbd596-c034-11ee-9bfa-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:hours rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >2</time:hours>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:hour rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            >21</time:hour>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:hour rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            >19</time:hour>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">戌</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fad4b8bf-c034-11ee-89c9-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.2</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >79.2</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >72.0</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">五刻</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fab6c4ee-c034-11ee-88c6-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:hours rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >2</time:hours>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:hour rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            >5</time:hour>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:hour rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            >3</time:hour>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">寅</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fadaae06-c034-11ee-8dbd-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.2</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >36.0</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >28.8</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">初二刻</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fab926ec-c034-11ee-bbad-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:hours rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >2</time:hours>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:hour rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            >9</time:hour>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:hour rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            >7</time:hour>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">辰</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fab926ee-c034-11ee-b154-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:hours rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >2</time:hours>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:hour rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            >13</time:hour>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:hour rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            >11</time:hour>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">午</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fad71a8c-c034-11ee-9dbc-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.2</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >108.0</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >100.8</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">七刻</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fada61c7-c034-11ee-bfd3-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.2</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >28.8</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >21.6</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">初一刻半</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fad4b8bd-c034-11ee-b318-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.2</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >64.8</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >57.6</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">四刻</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fad4b8b9-c034-11ee-b5e5-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.2</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >36.0</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >28.8</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">二刻</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fadd3696-c034-11ee-befd-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.2</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >14.4</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >7.2</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">正半刻</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fad4b8c0-c034-11ee-87df-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.2</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >86.4</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >79.2</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">五刻半</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fadda90b-c034-11ee-a5a9-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.2</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >21.6</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >14.4</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">正一刻</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fad9ef64-c034-11ee-8066-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.2</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >14.4</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >7.2</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">初半刻</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fadc788e-c034-11ee-be19-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >2.4</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >60.0</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >57.6</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">初四刻(小刻)</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fad71a8b-c034-11ee-a3a1-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.4</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >100.8</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >93.4</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">六刻半</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fabaf084-c034-11ee-9505-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:hours rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >2</time:hours>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:hour rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            >17</time:hour>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:hour rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            >15</time:hour>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">申</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fadafa5c-c034-11ee-b6e1-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.2</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >43.2</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >36.0</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">初二刻半</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#faddf56c-c034-11ee-a390-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.2</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >28.8</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >21.6</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">正一刻半</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fabc21d6-c034-11ee-9882-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:hours rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >2</time:hours>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:hour rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            >23</time:hour>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:hour rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            >21</time:hour>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">亥</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fad71a8a-c034-11ee-a6a0-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.0</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >93.4</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >86.4</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">六刻</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fad4b8bc-c034-11ee-b317-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.4</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >57.6</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >50.2</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">三刻半</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fad4b8b8-c034-11ee-818b-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.2</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >28.8</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >21.6</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">一刻半</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fab926ed-c034-11ee-9a4f-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:hours rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >2</time:hours>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:hour rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            >11</time:hour>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:hour rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            >9</time:hour>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">巳</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fad4b8ba-c034-11ee-bec8-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.2</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >43.2</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >36.0</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">二刻半</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fada3b98-c034-11ee-a49e-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.2</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >21.6</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >14.4</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">初一刻</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fad4b8b7-c034-11ee-a372-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.2</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >21.6</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >14.4</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">一刻</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fad4b8be-c034-11ee-b028-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.2</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >72.0</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >64.8</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">四刻半</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fab926ef-c034-11ee-9634-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:hours rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >2</time:hours>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:hour rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            >15</time:hour>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:hour rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            >13</time:hour>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">未</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fadbdef4-c034-11ee-88f8-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.4</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >57.6</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >50.2</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">初三刻半</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fae05763-c034-11ee-a407-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >2.4</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >60.0</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >57.6</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">正四刻(小刻)</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fad71a8e-c034-11ee-80cc-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >4.8</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >120.0</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >115.2</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">八刻(小刻)</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fadf9886-c034-11ee-9f81-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.0</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >50.2</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >43.2</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">正三刻</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fad25c31-c034-11ee-a451-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.2</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >7.2</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >0.0</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">初刻</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fae00b3f-c034-11ee-b008-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.4</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >57.6</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >50.2</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">正三刻半</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fad71a8d-c034-11ee-8e1f-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.2</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >115.2</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >108.0</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">七刻半</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fabb3d97-c034-11ee-bed0-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:hours rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >2</time:hours>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:hour rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            >19</time:hour>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:hour rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            >17</time:hour>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">酉</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fadb6c8b-c034-11ee-a552-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.0</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >50.2</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >43.2</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">初三刻</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fadcc469-c034-11ee-adca-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.2</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >7.2</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >0.0</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">正初刻</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#faded97e-c034-11ee-bec7-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.2</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >36.0</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >28.8</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">正二刻</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fab6c4ed-c034-11ee-9d88-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:hours rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >2</time:hours>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:hour rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            >3</time:hour>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:hour rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            >1</time:hour>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">丑</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fadf4c6a-c034-11ee-9f39-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.2</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >43.2</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >36.0</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">正二刻半</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fab6c4ef-c034-11ee-bfff-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:hours rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >2</time:hours>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:hour rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            >7</time:hour>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:hour rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            >5</time:hour>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">卯</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fad4b8bb-c034-11ee-a9ac-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.0</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >50.2</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >43.2</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">三刻</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fab468b4-c034-11ee-8d7d-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:hours rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >2</time:hours>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:hour rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            >1</time:hour>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:hour rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            >23</time:hour>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">子</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite/chenjiujintime#fad97e10-c034-11ee-b2ae-e4397b6f966b">
+    <time:hasDuration>
+      <time:Duration>
+        <time:minutes rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+        >7.2</time:minutes>
+      </time:Duration>
+    </time:hasDuration>
+    <time:hasEnd>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >7.2</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasEnd>
+    <time:hasBeginning>
+      <time:Instant>
+        <time:inDateTime>
+          <time:DateTimeDescription>
+            <time:minute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >0.0</time:minute>
+          </time:DateTimeDescription>
+        </time:inDateTime>
+      </time:Instant>
+    </time:hasBeginning>
+    <rdfs:label xml:lang="zh">初初刻</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+  </owl:NamedIndividual>
+</rdf:RDF>
+
+<!-- Created with TopBraid -->
