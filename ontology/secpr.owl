@@ -1,0 +1,329 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.org/lmjxt/cpr/solareclipserecord#"
+     xml:base="http://purl.org/lmjxt/cpr/solareclipserecord"
+     xmlns:cpr="http://purl.org/lmjxt/cpr/core#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.org/lmjxt/cpr/solareclipse#"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/core#op_TeZhengMiaoShu -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/lmjxt/cpr/core#op_TeZhengMiaoShu"/>
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/solareclipse#op_RiShiShiXiang -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/lmjxt/cpr/solareclipse#op_RiShiShiXiang">
+        <rdfs:domain rdf:resource="http://purl.org/lmjxt/cpr/solareclipse#c_TZMS_RiShiShiXiang"/>
+        <rdfs:range rdf:resource="http://purl.org/lmjxt/cpr/solareclipse#c_RiShiShiXiang"/>
+        <rdfs:label xml:lang="zh">所描述食相类型</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/solareclipse#op_RiShiTeZhengMiaoShu -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/lmjxt/cpr/solareclipse#op_RiShiTeZhengMiaoShu">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/lmjxt/cpr/core#op_TeZhengMiaoShu"/>
+        <rdfs:label xml:lang="zh">日食特征描述</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/solareclipse#op_TZMS_RiShiShiXiang -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/lmjxt/cpr/solareclipse#op_TZMS_RiShiShiXiang">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/lmjxt/cpr/solareclipse#op_RiShiTeZhengMiaoShu"/>
+        <rdfs:range rdf:resource="http://purl.org/lmjxt/cpr/solareclipse#c_TZMS_RiShiShiXiang"/>
+        <rdfs:label xml:lang="zh">日食食相特征描述</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/core#c_TeZhengMiaoShu -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/cpr/core#c_TeZhengMiaoShu"/>
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/core#c_TianXiang -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/cpr/core#c_TianXiang"/>
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/solareclipse#c_RSSX_ChuKui -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/cpr/solareclipse#c_RSSX_ChuKui">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/cpr/solareclipse#c_RiShiShiXiang"/>
+        <rdfs:label xml:lang="zh">初亏</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/solareclipse#c_RSSX_FuYuan -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/cpr/solareclipse#c_RSSX_FuYuan">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/cpr/solareclipse#c_RiShiShiXiang"/>
+        <rdfs:label xml:lang="zh">复圆</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/solareclipse#c_RSSX_ShengGuang -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/cpr/solareclipse#c_RSSX_ShengGuang">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/cpr/solareclipse#c_RiShiShiXiang"/>
+        <rdfs:label xml:lang="zh">生光</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/solareclipse#c_RSSX_ShiJi -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/cpr/solareclipse#c_RSSX_ShiJi">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/cpr/solareclipse#c_RiShiShiXiang"/>
+        <rdfs:label xml:lang="zh">食既</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/solareclipse#c_RSSX_ShiShen -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/cpr/solareclipse#c_RSSX_ShiShen">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/cpr/solareclipse#c_RiShiShiXiang"/>
+        <rdfs:label xml:lang="zh">食甚</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/solareclipse#c_RiHuanShi -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/cpr/solareclipse#c_RiHuanShi">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/cpr/solareclipse#c_RiShi"/>
+        <rdfs:label xml:lang="zh">日环食</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/solareclipse#c_RiPianShi -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/cpr/solareclipse#c_RiPianShi">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/cpr/solareclipse#c_RiShi"/>
+        <rdfs:label xml:lang="zh">日偏食</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/solareclipse#c_RiQuanShi -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/cpr/solareclipse#c_RiQuanShi">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/cpr/solareclipse#c_RiShi"/>
+        <rdfs:label xml:lang="zh">日全食</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/solareclipse#c_RiShi -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/cpr/solareclipse#c_RiShi">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/cpr/core#c_TianXiang"/>
+        <rdfs:label xml:lang="zh">日食</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/solareclipse#c_RiShiShiXiang -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/cpr/solareclipse#c_RiShiShiXiang">
+        <rdfs:label xml:lang="zh">日食食相</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/solareclipse#c_RiShiTeZhengMiaoShu -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/cpr/solareclipse#c_RiShiTeZhengMiaoShu">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/cpr/core#c_TeZhengMiaoShu"/>
+        <rdfs:label xml:lang="zh">日食特征描述</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/solareclipse#c_TZMS_ChuKui -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/cpr/solareclipse#c_TZMS_ChuKui">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/cpr/solareclipse#c_TZMS_RiShiShiXiang"/>
+        <rdfs:label xml:lang="zh">日食初亏特征</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/solareclipse#c_TZMS_FuYuan -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/cpr/solareclipse#c_TZMS_FuYuan">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/cpr/solareclipse#c_TZMS_RiShiShiXiang"/>
+        <rdfs:label xml:lang="zh">日食复圆特征描述</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/solareclipse#c_TZMS_RiShiShiXiang -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/cpr/solareclipse#c_TZMS_RiShiShiXiang">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/cpr/solareclipse#c_RiShiTeZhengMiaoShu"/>
+        <rdfs:label xml:lang="zh">日食食相特征描述</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/solareclipse#c_TZMS_ShengGuang -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/cpr/solareclipse#c_TZMS_ShengGuang">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/cpr/solareclipse#c_TZMS_RiShiShiXiang"/>
+        <rdfs:label xml:lang="zh">日食生光特征描述</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/solareclipse#c_TZMS_ShiJi -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/cpr/solareclipse#c_TZMS_ShiJi">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/cpr/solareclipse#c_TZMS_RiShiShiXiang"/>
+        <rdfs:label xml:lang="zh">日食食既特征描述</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/solareclipse#c_TZMS_ShiShen -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/cpr/solareclipse#c_TZMS_ShiShen">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/cpr/solareclipse#c_TZMS_RiShiShiXiang"/>
+        <rdfs:label xml:lang="zh">日食食甚特征描述</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/solareclipse#i_RSSX_ChuKui -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/cpr/solareclipse#i_RSSX_ChuKui">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/cpr/solareclipse#c_RSSX_ChuKui"/>
+        <rdfs:label xml:lang="zh">初亏</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/solareclipse#i_RSSX_FuYuan -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/cpr/solareclipse#i_RSSX_FuYuan">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/cpr/solareclipse#c_RSSX_FuYuan"/>
+        <rdfs:label xml:lang="zh">复圆</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/solareclipse#i_RSSX_ShengGuang -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/cpr/solareclipse#i_RSSX_ShengGuang">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/cpr/solareclipse#c_RSSX_ShengGuang"/>
+        <rdfs:label xml:lang="zh">生光</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/solareclipse#i_RSSX_ShiJi -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/cpr/solareclipse#i_RSSX_ShiJi">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/cpr/solareclipse#c_RSSX_ShiJi"/>
+        <rdfs:label xml:lang="zh">食既</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/solareclipse#i_RSSX_ShiShen -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/cpr/solareclipse#i_RSSX_ShiShen">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/cpr/solareclipse#c_RSSX_ShiShen"/>
+        <rdfs:label xml:lang="zh">食甚</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/solareclipse#i_RiHuanShi -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/cpr/solareclipse#i_RiHuanShi">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/cpr/solareclipse#c_RiHuanShi"/>
+        <rdfs:label xml:lang="zh">日环食</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/solareclipse#i_RiPianShi -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/cpr/solareclipse#i_RiPianShi">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/cpr/solareclipse#c_RiPianShi"/>
+        <rdfs:label xml:lang="zh">日偏食</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/solareclipse#i_RiQuanShi -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/cpr/solareclipse#i_RiQuanShi">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/cpr/solareclipse#c_RiQuanShi"/>
+        <rdfs:label xml:lang="zh">日全食</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/cpr/solareclipse#i_RiShi -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/cpr/solareclipse#i_RiShi">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/cpr/solareclipse#c_RiShi"/>
+        <rdfs:label xml:lang="zh">日食</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

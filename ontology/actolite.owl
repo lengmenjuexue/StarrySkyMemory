@@ -1,0 +1,1803 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.org/lmjxt/actolite#"
+     xml:base="http://purl.org/lmjxt/actolite"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.org/lmjxt/actolite#"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#op_CDay -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/lmjxt/actolite#op_CDay">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://purl.org/lmjxt/actolite#c_ACTOEntity"/>
+        <rdfs:label xml:lang="zh">纪日</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#op_CMonth -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/lmjxt/actolite#op_CMonth">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://purl.org/lmjxt/actolite#c_ACTOEntity"/>
+        <rdfs:label xml:lang="zh">纪月</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#op_CTime -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/lmjxt/actolite#op_CTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="zh">计时</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#op_CYear -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/lmjxt/actolite#op_CYear">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://purl.org/lmjxt/actolite#c_ACTOEntity"/>
+        <rdfs:label xml:lang="zh">纪年</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#op_DiWang -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/lmjxt/actolite#op_DiWang">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="zh">帝王号</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#op_NianHao -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/lmjxt/actolite#op_NianHao">
+        <rdfs:label xml:lang="zh">年号</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#op_TimeTypeByCertainty -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/lmjxt/actolite#op_TimeTypeByCertainty">
+        <rdfs:label xml:lang="zh">确定性的时间类型</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#op_toGCalendar -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/lmjxt/actolite#op_toGCalendar">
+        <rdfs:label xml:lang="zh">对应的公历</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#dp_CDay_Text -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/lmjxt/actolite#dp_CDay_Text">
+        <rdfs:label xml:lang="zh">纪日文本</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#dp_CMonth_Text -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/lmjxt/actolite#dp_CMonth_Text">
+        <rdfs:label xml:lang="zh">纪月文本</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#dp_CTime_Text -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/lmjxt/actolite#dp_CTime_Text">
+        <rdfs:label xml:lang="zh">计时文本</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#dp_CYear_Text -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/lmjxt/actolite#dp_CYear_Text">
+        <rdfs:label xml:lang="zh">纪年文本</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#dp_EE_Label -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/lmjxt/actolite#dp_EE_Label">
+        <rdfs:label xml:lang="zh">表达元素标签</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#dp_EE_Value -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/lmjxt/actolite#dp_EE_Value">
+        <rdfs:label xml:lang="zh">表达元素值</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#c_ACTOEntity -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/actolite#c_ACTOEntity">
+        <rdfs:label xml:lang="zh">纪时实体</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#c_AfterTime -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/actolite#c_AfterTime">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/actolite#c_UncertainlyTime"/>
+        <rdfs:label xml:lang="zh">某个时间之后</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#c_AroundTime -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/actolite#c_AroundTime">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/actolite#c_UncertainlyTime"/>
+        <rdfs:label xml:lang="zh">某个时间前后</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#c_BeforeTime -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/actolite#c_BeforeTime">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/actolite#c_UncertainlyTime"/>
+        <rdfs:label xml:lang="zh">某个时间之前</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#c_CDay -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/actolite#c_CDay">
+        <rdfs:label xml:lang="zh">纪日</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#c_CDay_GanZhi -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/actolite#c_CDay_GanZhi">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/actolite#c_CDay"/>
+        <rdfs:label xml:lang="zh">干支纪日</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#c_CDay_ShuXu -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/actolite#c_CDay_ShuXu">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/actolite#c_CDay"/>
+        <rdfs:label xml:lang="zh">数序纪日</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#c_CDay_YueXiang -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/actolite#c_CDay_YueXiang">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/actolite#c_CDay"/>
+        <rdfs:label xml:lang="zh">月相纪日</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#c_CMonth -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/actolite#c_CMonth">
+        <rdfs:label xml:lang="zh">纪月</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#c_CMonth_GanZhi -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/actolite#c_CMonth_GanZhi">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/actolite#c_CMonth"/>
+        <rdfs:label xml:lang="zh">干支纪月</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#c_CMonth_ShuXu -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/actolite#c_CMonth_ShuXu">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/actolite#c_CMonth"/>
+        <rdfs:label xml:lang="zh">数序纪月</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#c_CTime -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/actolite#c_CTime">
+        <rdfs:label xml:lang="zh">计时</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#c_CTime_ChenKe -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/actolite#c_CTime_ChenKe">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/actolite#c_CTime"/>
+        <rdfs:label xml:lang="zh">辰刻计时</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#c_CTime_GengDian -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/actolite#c_CTime_GengDian">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/actolite#c_CTime"/>
+        <rdfs:label xml:lang="zh">更点计时</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#c_CTime_LouKe -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/actolite#c_CTime_LouKe">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/actolite#c_CTime"/>
+        <rdfs:label xml:lang="zh">漏刻计时</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#c_CTime_ShiChen -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/actolite#c_CTime_ShiChen">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/actolite#c_CTime"/>
+        <rdfs:label xml:lang="zh">时辰计时</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#c_CTime_ShiDuan -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/actolite#c_CTime_ShiDuan">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/actolite#c_CTime"/>
+        <rdfs:label xml:lang="zh">时段计时</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#c_CYear -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/actolite#c_CYear">
+        <rdfs:label xml:lang="zh">纪年</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#c_CYear_DiWang -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/actolite#c_CYear_DiWang">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/actolite#c_CYear"/>
+        <rdfs:label xml:lang="zh">帝王纪年</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#c_CYear_GanZhi -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/actolite#c_CYear_GanZhi">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/actolite#c_CYear"/>
+        <rdfs:label xml:lang="zh">干支纪年</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#c_CYear_NianHao -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/actolite#c_CYear_NianHao">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/actolite#c_CYear"/>
+        <rdfs:label xml:lang="zh">年号纪年</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#c_CertainlyTime -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/actolite#c_CertainlyTime">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/actolite#c_TimeByCertainty"/>
+        <owl:disjointWith rdf:resource="http://purl.org/lmjxt/actolite#c_UncertainlyTime"/>
+        <rdfs:label xml:lang="zh">明确的时间</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#c_ExpressElement -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/actolite#c_ExpressElement">
+        <rdfs:label xml:lang="zh">时间表达元素</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#c_TimeByCertainty -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/actolite#c_TimeByCertainty">
+        <rdfs:label xml:lang="zh">按确定性分类的时间</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#c_UncertainlyTime -->
+
+    <owl:Class rdf:about="http://purl.org/lmjxt/actolite#c_UncertainlyTime">
+        <rdfs:subClassOf rdf:resource="http://purl.org/lmjxt/actolite#c_TimeByCertainty"/>
+        <rdfs:label xml:lang="zh">不明确的时间</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_AfterTime -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_AfterTime">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_AfterTime"/>
+        <rdfs:label xml:lang="zh">之后</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_AroundTime -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_AroundTime">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_AroundTime"/>
+        <rdfs:label xml:lang="zh">前后</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_BeforeTime -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_BeforeTime">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_BeforeTime"/>
+        <rdfs:label xml:lang="zh">之前</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_CertainlyTime -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_CertainlyTime">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_CertainlyTime"/>
+        <rdfs:label xml:lang="zh">明确的时间</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_10Yue -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_10Yue">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">十月</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">10</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_11Yue -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_11Yue">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">十一月</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">11</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_12Yue -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_12Yue">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">十二月</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">12</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_1Yue -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_1Yue">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">一月</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">1</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_2Yue -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_2Yue">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">二月</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">2</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_3Yue -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_3Yue">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">三月</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">3</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_4Yue -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_4Yue">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">四月</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">4</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_5Yue -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_5Yue">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">五月</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">5</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_6Yue -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_6Yue">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">六月</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">6</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_7Yue -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_7Yue">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">七月</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">7</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_8Yue -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_8Yue">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">八月</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">8</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_9Yue -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_9Yue">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">九月</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">9</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Bing -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Bing">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">丙</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">3</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_BingChen -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_BingChen">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">丙辰</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">53</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_BingShen -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_BingShen">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">丙申</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">33</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_BingWu -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_BingWu">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">丙午</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">43</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_BingXu -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_BingXu">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">丙戌</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">23</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_BingYin -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_BingYin">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">丙寅</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">3</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_BingZi -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_BingZi">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">丙子</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">13</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Chen -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Chen">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">辰</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">5</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_ChiFenRuo -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_ChiFenRuo">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">赤奋若</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">2</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Chou -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Chou">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">丑</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">2</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_ChunHuo -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_ChunHuo">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">鹑火</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">8</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_ChunShou -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_ChunShou">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">鹑首</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">7</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_ChunWei -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_ChunWei">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">鹑尾</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">9</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_DaHuangLuo -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_DaHuangLuo">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">大荒落</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">6</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_DaHuo -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_DaHuo">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">大火</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">11</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_DaLiang -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_DaLiang">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">大梁</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">5</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_DaYuanXian -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_DaYuanXian">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">大渊献</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">12</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_DanE -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_DanE">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">单阏</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">4</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Ding -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Ding">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">丁</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">4</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_DingChou -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_DingChou">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">丁丑</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">14</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_DingHai -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_DingHai">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">丁亥</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">24</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_DingMao -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_DingMao">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">丁卯</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">4</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_DingSi -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_DingSi">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">丁巳</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">54</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_DingWei -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_DingWei">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">丁未</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">44</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_DingYou -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_DingYou">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">丁酉</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">34</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_DunZang -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_DunZang">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">敦牂</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">7</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Geng -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Geng">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">庚</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">7</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_GengChen -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_GengChen">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">庚辰</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">17</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_GengShen -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_GengShen">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">庚申</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">57</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_GengWu -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_GengWu">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">庚午</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">7</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_GengXu -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_GengXu">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">庚戌</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">47</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_GengYin -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_GengYin">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">庚寅</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">27</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_GengZi -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_GengZi">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">庚子</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">37</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Gou -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Gou">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">狗</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">11</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Gui -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Gui">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">癸</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">10</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_GuiChou -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_GuiChou">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">癸丑</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">50</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_GuiHai -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_GuiHai">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">癸亥</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">60</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_GuiMao -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_GuiMao">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">癸卯</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">40</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_GuiSi -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_GuiSi">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">癸巳</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">30</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_GuiWei -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_GuiWei">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">癸未</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">20</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_GuiYou -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_GuiYou">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">癸酉</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">10</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Hai -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Hai">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">亥</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">12</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Hou -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Hou">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">猴</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">9</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Hu -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Hu">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">虎</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">3</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_HuiRi -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_HuiRi">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">晦日</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">4</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Ji -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Ji">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">鸡</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">10</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Ji2 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Ji2">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">己</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">6</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_JiChou -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_JiChou">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">己丑</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">26</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_JiHai -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_JiHai">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">己亥</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">36</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_JiMao -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_JiMao">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">己卯</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">16</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_JiSi -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_JiSi">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">己巳</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">6</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_JiWang -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_JiWang">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">既望</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">3</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_JiWei -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_JiWei">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">己未</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">56</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_JiYou -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_JiYou">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">己酉</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">46</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Jia -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Jia">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">甲</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">1</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_JiaChen -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_JiaChen">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">甲辰</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">41</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_JiaShen -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_JiaShen">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">甲申</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">21</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_JiaWu -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_JiaWu">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">甲午</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">31</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_JiaXu -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_JiaXu">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">甲戌</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">11</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_JiaYin -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_JiaYin">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">甲寅</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">51</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_JiaZi -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_JiaZi">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">甲子</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">1</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_JiangLou -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_JiangLou">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">降娄</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">4</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_JuZi -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_JuZi">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">娵訾</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">3</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_KunDun -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_KunDun">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">困敦</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">1</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Long -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Long">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">龙</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">5</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Ma -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Ma">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">马</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">7</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Mao -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Mao">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">卯</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">4</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Niu -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Niu">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">牛</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">2</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Ren -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Ren">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">壬</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">9</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_RenChen -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_RenChen">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">壬辰</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">29</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_RenShen -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_RenShen">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">壬申</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">9</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_RenWu -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_RenWu">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">壬午</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">19</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_RenXu -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_RenXu">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">壬戌</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">59</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_RenYin -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_RenYin">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">壬寅</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">39</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_RenZi -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_RenZi">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">壬子</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">49</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_RunYue -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_RunYue">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">闰月</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">13</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_She -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_She">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">蛇</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">6</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_SheTiGe -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_SheTiGe">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">摄提格</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">3</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Shen -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Shen">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">申</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">9</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_ShiShen -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_ShiShen">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">实沈</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">6</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_ShouXing -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_ShouXing">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">寿星</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">10</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Shu -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Shu">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">鼠</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">1</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_ShuoRi -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_ShuoRi">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">朔日</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">1</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Si -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Si">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">巳</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">6</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Tu -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Tu">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">兔</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">4</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_TunTan -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_TunTan">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">涒滩</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">9</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_WangRi -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_WangRi">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">望日</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">2</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Wei -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Wei">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">未</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">8</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Wu -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Wu">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">午</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">7</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Wu2 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Wu2">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">戊</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">5</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_WuChen -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_WuChen">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">戊辰</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">5</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_WuShen -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_WuShen">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">戊申</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">45</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_WuWu -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_WuWu">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">戊午</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">55</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_WuXu -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_WuXu">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">戊戌</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">35</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_WuYin -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_WuYin">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">戊寅</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">15</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_WuZi -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_WuZi">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">戊子</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">25</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_XiMu -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_XiMu">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">析木</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">12</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_XieQia -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_XieQia">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">协洽</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">8</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Xin -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Xin">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">辛</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">8</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_XinChou -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_XinChou">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">辛丑</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">38</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_XinHai -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_XinHai">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">辛亥</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">48</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_XinMao -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_XinMao">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">辛卯</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">28</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_XinSi -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_XinSi">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">辛巳</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">18</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_XinWei -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_XinWei">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">辛未</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">8</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_XinYou -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_XinYou">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">辛酉</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">58</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_XingJi -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_XingJi">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">星纪</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">1</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Xu -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Xu">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">戌</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">11</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_XuanXiao -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_XuanXiao">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">玄枵</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">2</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_YanMao -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_YanMao">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">阉茂</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">11</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Yang -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Yang">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">羊</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">8</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Yi -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Yi">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">乙</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">2</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_YiChou -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_YiChou">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">乙丑</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">2</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_YiHai -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_YiHai">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">乙亥</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">12</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_YiMao -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_YiMao">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">乙卯</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">52</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_YiSi -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_YiSi">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">乙巳</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">42</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_YiWei -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_YiWei">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">乙未</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">32</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_YiYou -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_YiYou">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">乙酉</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">22</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Yin -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Yin">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">寅</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">3</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_You -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_You">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">酉</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">10</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_ZhiXu -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_ZhiXu">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">执徐</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">5</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Zhu -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Zhu">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">猪</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">12</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_Zi -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_Zi">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">子</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">1</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/lmjxt/actolite#i_ee_ZuoE -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/lmjxt/actolite#i_ee_ZuoE">
+        <rdf:type rdf:resource="http://purl.org/lmjxt/actolite#c_ExpressElement"/>
+        <dp_EE_Label xml:lang="zh">作噩</dp_EE_Label>
+        <dp_EE_Value xml:lang="zh">10</dp_EE_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.org/lmjxt/actolite#c_AfterTime"/>
+            <rdf:Description rdf:about="http://purl.org/lmjxt/actolite#c_AroundTime"/>
+            <rdf:Description rdf:about="http://purl.org/lmjxt/actolite#c_BeforeTime"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
